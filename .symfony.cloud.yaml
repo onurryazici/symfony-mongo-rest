@@ -15,7 +15,7 @@ runtime:
 #    php:
 #        # uncomment on PHP 7.4+
 #        #opcache.preload: /app/config/preload.php
-
+timezone: Europe/Istanbul
 crons:
     testt:
         spec: '1 * * * *'
