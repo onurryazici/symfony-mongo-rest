@@ -18,10 +18,11 @@ runtime:
 
 crons:
     testt:
-        spec: 1 * * * *
+        spec: '1 * * * *'
         cmd: |
-            ls
-
+            if [ "$SYMFONY_BRANCH" = "master" ]; then
+                croncape symfony console app:check-new-users
+            fi
 build:
     flavor: none
 
