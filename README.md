@@ -40,15 +40,15 @@ Returns json data about specific user by id.
       **Content:**
       ```json
       {
-          id: "0354684",
-          username: "22",
-          phone: "22",
-          email: "onurryazicii@gmail.com",
-          address: "22",
-          createdAt: {
-              date: "2020-01-25 22:31:23.647000",
-              timezone_type: 3,
-              timezone: "Europe/Istanbul"
+          "id": "0354684",
+          "username": "22",
+          "phone": "22",
+          "email": "onurryazicii@gmail.com",
+          "address": "22",
+          "createdAt": {
+              "date": "2020-01-25 22:31:23.647000",
+              "timezone_type": 3,
+              "timezone": "Europe/Istanbul"
           }
       }
       ```
