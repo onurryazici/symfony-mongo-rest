@@ -3,7 +3,6 @@
 namespace App\Document;
 
 use App\Repository\UserRepository;
-
 use Doctrine\ODM\MongoDB\Mapping\Annotations as MongoDB;
 use DateTime;
 /**
@@ -20,11 +19,6 @@ class User{
      * @MongoDB\Field(name="username", type="string")
      */
     protected $username;
-    
-    /**
-     * @MongoDB\Field(name="tc",type="string")
-     */
-    protected $tc;
 
     /**
      * @MongoDB\Field(name="phone", type="string")
@@ -46,8 +40,7 @@ class User{
      * 
      */
     protected $createdAt;
-    
-    
+
     /**
      * @return mixed
      */
@@ -62,14 +55,6 @@ class User{
     public function getUsername()
     {
         return $this->username;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getTc()
-    {
-        return $this->tc;
     }
 
     /**
@@ -103,7 +88,6 @@ class User{
     {
         return clone $this->createdAt;
     }
-    
 
     /**
      * @param mixed $id
@@ -119,14 +103,6 @@ class User{
     public function setUsername($username)
     {
         $this->username = $username;
-    }
-
-    /**
-     * @param mixed $tc
-     */
-    public function setTc($tc)
-    {
-        $this->tc = $tc;
     }
 
     /**
@@ -157,7 +133,5 @@ class User{
     {
         $this->createdAt = clone $createdAt;
     }
-
 }
-
 ?>

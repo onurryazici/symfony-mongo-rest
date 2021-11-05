@@ -6,7 +6,6 @@
 parameters:
     env(MONGODB_URL): ''
     env(MONGODB_DB): ''
-    mongodb_server: "mongodb+srv://user_onur:qweqweasd@symfony-project.mbcl0.mongodb.net/symfony_database?retryWrites=true&w=majority"
 
 services:
     # default configuration for services in *this* file
@@ -27,7 +26,6 @@ services:
             - '../src/Repository'
             - '../src/Kernel.php'
             - '../src/Tests/'
-            - '../src/Console/'
 
     # controllers are imported separately to make sure services can be injected
     # as action arguments even if you don't extend any base controller class
@@ -35,12 +33,6 @@ services:
         resource: '../src/Controller/'
         tags: ['controller.service_arguments']
 
-    App\Command\ :
-        resource: '../src/Command/UserRegistrationMailer.php'
-        tags:
-            - { name: 'console.command', command: 'app:check-new-users' }
 
-    tester:
-        class: App\Controller\QueueController
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones

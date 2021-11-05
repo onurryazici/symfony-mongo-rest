@@ -2,23 +2,6 @@
     "alcaeus/mongo-php-adapter": {
         "version": "1.2.1"
     },
-    "api-platform/core": {
-        "version": "2.6",
-        "recipe": {
-            "repo": "github.com/symfony/recipes",
-            "branch": "master",
-            "version": "2.5",
-            "ref": "05b57782a78c21a664a42055dc11cf1954ca36bb"
-        },
-        "files": [
-            "./config/routes/api_platform.yaml",
-            "./config/packages/api_platform.yaml",
-            "./src/Entity/.gitignore"
-        ]
-    },
-    "clue/stream-filter": {
-        "version": "v1.5.0"
-    },
     "composer/package-versions-deprecated": {
         "version": "1.11.99.4"
     },
@@ -122,29 +105,11 @@
     "doctrine/sql-formatter": {
         "version": "1.1.1"
     },
-    "dragonmantank/cron-expression": {
-        "version": "v2.3.1"
-    },
-    "fig/link-util": {
-        "version": "1.1.2"
-    },
     "friendsofphp/proxy-manager-lts": {
         "version": "v1.0.5"
     },
     "jean85/pretty-package-versions": {
         "version": "2.0.5"
-    },
-    "kriswallsmith/buzz": {
-        "version": "1.2",
-        "recipe": {
-            "repo": "github.com/symfony/recipes-contrib",
-            "branch": "master",
-            "version": "1.0",
-            "ref": "7238da98cc4912f7ff0a124cbac6e89ffb149db2"
-        },
-        "files": [
-            "./config/packages/buzz.yaml"
-        ]
     },
     "laminas/laminas-code": {
         "version": "3.4.1"
@@ -154,18 +119,6 @@
     },
     "laminas/laminas-zendframework-bridge": {
         "version": "1.4.0"
-    },
-    "mailgun/mailgun-php": {
-        "version": "3.5",
-        "recipe": {
-            "repo": "github.com/symfony/recipes-contrib",
-            "branch": "master",
-            "version": "2.3",
-            "ref": "9aea325919644b58a53edf71d1212005e7081cad"
-        },
-        "files": [
-            "./config/packages/mailgun.yaml"
-        ]
     },
     "mongodb/mongodb": {
         "version": "1.9.0"
@@ -194,26 +147,8 @@
             "./config/packages/nyholm_psr7.yaml"
         ]
     },
-    "php-http/client-common": {
-        "version": "2.4.0"
-    },
-    "php-http/discovery": {
-        "version": "1.14.1"
-    },
-    "php-http/httplug": {
-        "version": "2.2.0"
-    },
-    "php-http/message": {
-        "version": "1.12.0"
-    },
     "php-http/message-factory": {
         "version": "v1.0.2"
-    },
-    "php-http/multipart-stream-builder": {
-        "version": "1.2.0"
-    },
-    "php-http/promise": {
-        "version": "1.1.0"
     },
     "phpdocumentor/reflection-common": {
         "version": "2.2.0"
@@ -224,26 +159,17 @@
     "phpdocumentor/type-resolver": {
         "version": "1.5.1"
     },
-    "phpmailer/phpmailer": {
-        "version": "v6.5.1"
-    },
     "psr/cache": {
         "version": "1.0.1"
     },
     "psr/container": {
         "version": "1.1.1"
     },
-    "psr/http-client": {
-        "version": "1.0.1"
-    },
     "psr/http-factory": {
         "version": "1.0.1"
     },
     "psr/http-message": {
         "version": "1.0.1"
-    },
-    "psr/link": {
-        "version": "1.0.0"
     },
     "psr/log": {
         "version": "1.1.4"
@@ -485,9 +411,6 @@
     "symfony/var-exporter": {
         "version": "v4.4.31"
     },
-    "symfony/web-link": {
-        "version": "v4.4.27"
-    },
     "symfony/yaml": {
         "version": "v4.4.29"
     },
@@ -496,11 +419,5 @@
     },
     "webmozart/assert": {
         "version": "1.10.0"
-    },
-    "willdurand/negotiation": {
-        "version": "3.0.0"
-    },
-    "zenstruck/schedule-bundle": {
-        "version": "v1.2.0"
     }
 }
