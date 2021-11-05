@@ -11,20 +11,20 @@ Edit .env file and change `MONGODB_URL` and `MONGODB_DB` variables
 MONGODB_URL=mongodb+srv://YOUR_USER:YOUR_PASSWORD@yourmongodbatlasurl
 MONGODB_DB=YOUR_DB_NAMAE
 `
-
+<br/>
 Start your server in project root directory:
 `symfony server:start`
 # API
 
 ## API Endpoints
 
-| URL |HTTP Method  | Description |
-|-----|--|--|
-|`127.0.0.1:8000/user`      |` GET  `| Return user list |
-|`127.0.0.1:8000/user/{id}` |` GET  `| Return only one user by id |
-|`127.0.0.1:8000/user`      |` POST `| Adding a user to db (Parameters below)|
-|`127.0.0.1:8000/user/{id}` |`DELETE`| Delete user by id          |
-|`127.0.0.1:8000/user/{id}` |`PATCH `| Update user by id (Parameters below)|
+| URL                       |HTTP Method  | Description |
+|---------------------------|-------------|------------------|
+|`127.0.0.1:8000/user`      |`    GET    `| Return user list |
+|`127.0.0.1:8000/user/{id}` |`    GET    `| Return only one user by id |
+|`127.0.0.1:8000/user`      |`    POST   `| Adding a user to db (Parameters below)|
+|`127.0.0.1:8000/user/{id}` |`   DELETE  `| Delete user by id          |
+|`127.0.0.1:8000/user/{id}` |`   PATCH   `| Update user by id (Parameters below)|
 
 
 ### Show Specific User ###
