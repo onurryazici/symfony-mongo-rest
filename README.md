@@ -65,7 +65,7 @@ Returns json data about specific user by id.
       **Content:**
       ```json
       {
-          id: "0354684",
+          "id": "0354684",
           username: "22",
           phone: "22",
           email: "onurryazicii@gmail.com",
