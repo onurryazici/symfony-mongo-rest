@@ -64,20 +64,22 @@ Returns json data about specific user by id.
     * **Code:** 200
       **Content:**
       ```json
-      {
-          "id": "0354684",
-          username: "22",
-          phone: "22",
-          email: "onurryazicii@gmail.com",
-          address: "22",
-          createdAt: {
-              date: "2020-01-25 22:31:23.647000",
-              timezone_type: 3,
-              timezone: "Europe/Istanbul"
-          }
-      }
-      ...
-      ...
+      [
+        {
+            "id": "0354684",
+            "username": "22",
+            "phone": "22",
+            "email": "onurryazicii@gmail.com",
+            "address": "22",
+            "createdAt": {
+                "date": "2020-01-25 22:31:23.647000",
+                "timezone_type": 3,
+                "timezone": "Europe/Istanbul"
+            }
+        },
+        {
+            ...
+        }
       ```
 
 ### Delete Specific User ###
@@ -93,8 +95,8 @@ Returns json data about deleting  specific user by id.
       **Content:**
       ```json
       {
-          statu: true,
-          message: "{id} successfully deleted",
+          "statu": true,
+          "message": "{id} successfully deleted",
       }
       ```
 
@@ -103,8 +105,8 @@ Returns json data about deleting  specific user by id.
       **Content:**
       ```json
       {
-          statu: false,
-          message: "There is no such user with this id : {id}",
+          "statu": false,
+          "message": "There is no such user with this id : {id}",
       }
       ```
 
@@ -126,8 +128,8 @@ Returns json data about specific user by id.
       **Content:**
       ```json
       {
-          statu: true,
-          message: "User updated",
+          "statu": true,
+          "message": "User updated",
       }
       ```
 
@@ -136,8 +138,8 @@ Returns json data about specific user by id.
       **Content:**
       ```json
       {
-          statu: false,
-          message: "There is no such user with this id : {id}",
+          "statu": false,
+          "message": "There is no such user with this id : {id}",
       }
       ```
 
@@ -158,7 +160,7 @@ Returns json data about specific user by id.
       **Content:**
       ```json
       {
-          statu: true,
-          message: "User successfully added",
+          "statu": true,
+          "message": "User successfully added",
       }
       ```
